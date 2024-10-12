@@ -2,7 +2,7 @@
 title: 旧版本外部资源迁移指南
 description: 
 published: true
-date: 2024-07-18T15:55:45.220Z
+date: 2024-10-12T04:29:48.335Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-05T13:48:54.515Z
