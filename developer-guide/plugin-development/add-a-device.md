@@ -2,7 +2,7 @@
 title: 添加一个设备
 description: 
 published: true
-date: 2024-07-18T16:03:23.481Z
+date: 2024-10-12T04:28:43.515Z
 tags: 开发者
 editor: markdown
 dateCreated: 2024-07-17T11:05:31.263Z
