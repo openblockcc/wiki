@@ -2,7 +2,7 @@
 title: 添加扩展
 description: 学习如何在OpenBlock中开发并添加一个新的模块插件
 published: false
-date: 2024-07-18T15:59:03.778Z
+date: 2024-10-12T04:27:56.058Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-21T07:02:25.615Z
