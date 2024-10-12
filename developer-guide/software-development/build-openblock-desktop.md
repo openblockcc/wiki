@@ -2,7 +2,7 @@
 title: 构建 OpenBlock Desktop
 description: 
 published: true
-date: 2024-08-02T01:37:01.581Z
+date: 2024-10-12T04:34:39.475Z
 tags: 开发者
 editor: markdown
 dateCreated: 2024-07-18T08:21:26.909Z
