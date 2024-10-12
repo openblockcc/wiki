@@ -2,13 +2,13 @@
 title: 安装桌面版
 description: 
 published: true
-date: 2024-10-12T04:00:37.127Z
+date: 2024-10-12T04:01:19.882Z
 tags: 入门
 editor: markdown
 dateCreated: 2022-10-06T15:09:29.940Z
 ---
 
-# 安装桌面
+# 安装桌面版
 
 ## 下载软件安装包
 
