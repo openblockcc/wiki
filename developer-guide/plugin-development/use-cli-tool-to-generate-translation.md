@@ -2,7 +2,7 @@
 title: 使用 CLI 工具生成翻译
 description: 
 published: true
-date: 2024-07-18T15:40:00.929Z
+date: 2024-10-12T04:32:13.979Z
 tags: 开发者
 editor: markdown
 dateCreated: 2024-07-18T15:39:59.082Z
