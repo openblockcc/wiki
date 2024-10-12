@@ -2,7 +2,7 @@
 title: 插件开发
 description: 
 published: true
-date: 2024-10-12T04:26:19.047Z
+date: 2024-10-12T04:38:15.632Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-17T02:37:35.034Z
@@ -54,7 +54,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 - [常见的 USB 硬件 ID](./plugin-development/common-usb-hardware-id)
 - [内置设备 ID](./plugin-development/builtin-device-id)
 - [旧版本外部资源迁移指南](./plugin-development/old-external-resource-migration-guide)
-- [设备资源包标准](no)(./plugin-development/device-resource-pack-specification)
+- [设备资源包标准](no/plugin-development/device-resource-pack-specification)
 - [扩展资源包标准](./plugin-development/extension-resource-pack-specification)
 {.links-list}
 
