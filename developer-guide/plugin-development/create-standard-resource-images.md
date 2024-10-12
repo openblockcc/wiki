@@ -2,7 +2,7 @@
 title: 制作标准的资源图片
 description: 
 published: true
-date: 2024-07-18T05:41:08.507Z
+date: 2024-10-12T04:30:42.961Z
 tags: 开发者
 editor: markdown
 dateCreated: 2024-07-18T05:41:06.628Z
