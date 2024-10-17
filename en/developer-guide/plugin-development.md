@@ -2,7 +2,7 @@
 title: Plugin Development
 description: 
 published: true
-date: 2024-10-17T04:26:23.465Z
+date: 2024-10-17T04:28:42.083Z
 tags: developer
 editor: markdown
 dateCreated: 2024-10-17T04:26:23.465Z
@@ -28,7 +28,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 ## Quick Start
 
-- [Preparations *Before we start writing resources, we first need to set up the development environment*](./plugin-development/reparations)
+- [Preparations *Before we start writing resources, we first need to set up the development environment*](./plugin-development/preparations)
 - [Adding an Extension *Write to add an LED module*](./plugin-development/add-a-extension)
 - [Adding a Device *Write to add a circuit board modified from Arduino UNO*](./plugin-development/add-a-device)
 {.links-list}
