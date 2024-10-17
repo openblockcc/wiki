@@ -2,7 +2,7 @@
 title: OpenBlock社区版
 description: 
 published: true
-date: 2023-12-27T16:28:18.457Z
+date: 2024-10-17T05:47:29.109Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-22T10:32:51.895Z
@@ -50,9 +50,3 @@ openblock的所有代码可以免费使用,无需授权即可整合到您的商�
 使用过程中遇到任何问题,欢迎通过GitHub issue或我们的官方论坛寻求帮助。  
 
 让我们共同努力,使openblock项目更加完善!
-
-
-## 开发指南
-- [添加设备](/zh/developer-guide/add-devices)
-- [添加扩展](/zh/developer-guide/add-extensions)
-{.links-list}
