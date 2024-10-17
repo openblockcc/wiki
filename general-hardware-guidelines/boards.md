@@ -1,8 +1,8 @@
 ---
-title: 核心控制板(单片机)
+title: 控制板
 description: 
 published: true
-date: 2024-10-12T04:11:37.725Z
+date: 2024-10-17T03:56:14.286Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T04:48:44.619Z
