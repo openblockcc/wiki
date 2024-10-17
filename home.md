@@ -2,7 +2,7 @@
 title: 首页
 description: 
 published: true
-date: 2024-10-17T05:58:45.751Z
+date: 2024-10-17T05:59:45.429Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-11T12:41:15.723Z
@@ -24,7 +24,7 @@ dateCreated: 2022-07-11T12:41:15.723Z
 ## 硬件支持
 
 - [控制板](./general-hardware-guidelines/boards)
-- [其他模块]
+- 其他模块
 {.links-list}
 
 ## 开发者指南
