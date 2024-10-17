@@ -1,57 +1,58 @@
 ---
-title: 准备工作
+title: Reparations
 description: 
 published: true
-date: 2024-10-12T04:30:11.114Z
-tags: 
+date: 2024-10-17T04:27:56.431Z
+tags: developer
 editor: markdown
-dateCreated: 2024-07-17T06:33:01.278Z
+dateCreated: 2024-10-17T04:27:56.431Z
 ---
 
-# 准备工作
+# Preparations
 
-## 要求
+## Requirements
 
-请确保你的计算机已经安装好了以下软件或工具。
+Please ensure that the following software or tools are installed on your computer.
 
-- Node.js 14/16 （过高或过低的版本可能会导致一些未知的错误）
+- Node.js 14/16 (versions that are too high or too low may cause unknown errors)
 - git
-- 代码编辑器（推荐使用VSCode)
+- Code editor (VSCode is recommended)
 
-## 步骤
+## Steps
 
-1. 获取外部资源的工程代码
+1. Obtain the external resource project code
 
 ```bash
 git clone https://github.com/openblockcc/external-resources-v3.git external-resources-v3
 ```
 
-2. 安装 nodejs 依赖
+2. Install Node.js dependencies
 
 ```bash
 cd external-resources-v3
 npm ci
 ```
 
-3. 将当前的资源路径添加到环境变量中
+3. Add the current resource path to the environment variables
 
 ### Tab {.tabset}
 #### Windows
 
-以管理员权限打开 powershell 运行 `./setup.sh`，或者也可以直接右键脚本 `setup.sh` 以管理员方式运行。
+Open PowerShell with administrator privileges and run `./setup.sh`, or you can right-click the `setup.sh` script and run it as an administrator.
 
 #### MacOS/Linux
 
 ```bash
 sudo ./setup.sh
 ```
-由于类 Unix 系统的特殊性，执行完成后我们还需要重启系统或者注销用户重新登陆，设置的环境变量才会生效。
-  
+
+Due to the nature of Unix-like systems, after execution, we need to restart the system or log out and log back in for the environment variable settings to take effect.
+
 ### {.tabset}
 
-4. 验证环境变量是否生效 
+4. Verify whether the environment variables are effective
 
-在脚本运行完成后，当前的资源路径就已经被设置到了系统的环境变量中了，可以被 Resource Server 扫描到了，我们可以重新打开一个新的终端来验证以下。
+After the script runs, the current resource path has been set to the system's environment variables and can be scanned by the Resource Server. We can open a new terminal to verify this.
 
 ### Tab {.tabset}
 #### Windows
@@ -68,11 +69,11 @@ echo $OPENBLOCK_EXTERNAL_RESOURCES
 
 ### {.tabset}
 
-如果正常的话，将会输出当前资源工程的路径。
+If everything is normal, it will output the path of the current resource project.
 
-4. 验证 OpenBlock 是否会优先使用当前的资源工程
+5. Verify that OpenBlock prioritizes using the current resource project
 
-打开 `./extensions/apds9960/translations.js` 文件，将 `getInterfaceTranslations` 函数中的所有语言的 `apds9960.description` 修改为一个测试数据。
+Open the `./extensions/apds9960/translations.js` file and modify all language `apds9960.description` entries in the `getInterfaceTranslations` function to test data.
 
 ```js
 function getInterfaceTranslations () {
@@ -92,10 +93,9 @@ function getInterfaceTranslations () {
     }
     ;
 }
-
 ```
 
-而后使用命令行打开 OpenBlock，具体的命令需要根据实际情况调整路径。
+Then, use the command line to open OpenBlock, adjusting the command according to your actual path.
 
 ### Tab {.tabset}
 #### Windows
@@ -118,11 +118,11 @@ function getInterfaceTranslations () {
 
 ### {.tabset}
 
-在打开的软件中选择 Arduino Uno 主板，切换到上传模式并打开插件选择界面，可以看到 APDS9960 的描述已经变成了我们修改的内容。
+In the opened software, select the Arduino Uno mainboard, switch to upload mode, and open the plugin selection interface. You should see that the description of APDS9960 has changed to the content we modified.
 
 ![apds9960demo.png](/developer-guide/plugin-development/reparations/apds9960demo.png)
 
-同时可以看到终端中显示了当前 Resource Server 使用的资源路径。(适用于v2.5.3 以上版本)
+At the same time, you can see the terminal displaying the current resource path used by the Resource Server (applicable to versions 2.5.3 and above).
 
 ```bash
 ...
@@ -133,5 +133,4 @@ Openblock resource server start successfully, socket listen on: http://0.0.0.0:2
 ...
 ```
 
-到此我们的开发环境就搭建完成，可以进行接下来的开发了。
-
+At this point, our development environment has been set up, and we can proceed with the subsequent development.
