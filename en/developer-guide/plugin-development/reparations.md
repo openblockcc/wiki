@@ -1,8 +1,8 @@
 ---
-title: Reparations
+title: Preparations
 description: 
 published: true
-date: 2024-10-17T04:27:56.431Z
+date: 2024-10-17T04:29:04.380Z
 tags: developer
 editor: markdown
 dateCreated: 2024-10-17T04:27:56.431Z
