@@ -2,7 +2,7 @@
 title: OpenBlock Community Edition
 description: 
 published: true
-date: 2023-12-27T17:07:49.394Z
+date: 2024-10-17T05:48:05.783Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-27T15:45:06.099Z
@@ -11,14 +11,6 @@ dateCreated: 2023-12-27T15:45:06.099Z
 # OpenBlock Community Edition
 
 The OpenBlock Community Edition is an open-source project that follows the MIT open-source protocol. We welcome any individual or organization to join, participate, and use.
-
-## Getting Started
-- OpenBlock Desktop Software Installation
-{.links-list}
-
-## User Guide
-- [Usage]
-{.links-list}
 
 ## Join Development
 
@@ -49,8 +41,3 @@ All source code of OpenBlock can be used for commercial purposes without paying 
 If you encounter any problems during use, you are welcome to seek help through GitHub issues or our official forum.
 
 Let's work together to make the OpenBlock project better!
-
-## Developer Guide
-- [Add Devices](/en/developer-guide/add-devices)
-- [Add Extensions](/en/developer-guide/add-extensions)
-{.links-list}
