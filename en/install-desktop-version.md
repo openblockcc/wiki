@@ -1,40 +1,38 @@
 ---
-title: 安装桌面版
+title: Install Desktop VersionI
 description: 
 published: true
-date: 2024-10-12T04:00:29.353Z
-tags: 入门
+date: 2024-10-17T03:07:13.223Z
+tags: 
 editor: markdown
-dateCreated: 2022-10-06T15:09:29.940Z
+dateCreated: 2024-10-17T03:07:13.223Z
 ---
 
-# 安装桌面
+# Install Desktop Version
 
-## 下载软件安装包
+## Download the Software Package
 
-根据您所处的地区选择合适的渠道并下载对应系统的安装包。
+Select the appropriate download channel based on your region and download the installation package for your system.
 
 ### Tab {.tabset}
 
-#### OpenBlock Desktop 发行版（推荐）
+#### OpenBlock Desktop Distribution (Recommended)
 
-- [百度网盘 *大陆地区下载，推荐使用*](https://pan.baidu.com/s/1MVUvh-D1mmIq9gBPNb6Irg?pwd=sgms)
-- [Github Release *Github地址，中国地区可能无法访问*](https://github.com/openblockee/openblock-distro-desktop/releases/latest)
+- [Github Release](https://github.com/openblockee/openblock-distro-desktop/releases/latest)
 {.links-list}
 
-#### OpenBlock Desktop 社区版
+#### OpenBlock Desktop Community Edition
 
-- [百度网盘 *大陆地区下载，推荐使用*](https://pan.baidu.com/s/1ZbpDvno53GAKtcAbGYYR4g?pwd=scaj)
-- [Github Release *Github地址，中国地区可能无法访问*](https://github.com/openblockcc/openblock-desktop/releases/latest)
+- [Github Release](https://github.com/openblockcc/openblock-desktop/releases/latest)
 {.links-list}
- 
-## 安装软件
 
-1. 双击软件安装包，完成安装。
-2. **首次安装后**，请在打开软件后点击右上角菜单安装驱动，以安装主板的驱动程序。
+## Install the Software
 
-![安装驱动.png](/general-hardware-guidelines/boards/raspberry-pi-pico/安装驱动.png)
+1. Double-click the software package to complete the installation.
+2. **After the first installation**, open the software and click the top-right menu to install the drivers for the motherboard.
 
-3. 等待驱动安装完成后就可以开始使用啦~。
+![install-driver.png](/assets/install-driver.png)
 
-<img src="/general-hardware-guidelines/boards/raspberry-pi-pico/软件界面.png" alt="软件界面" style="zoom:50%;" />
+3. Once the driver installation is complete, you're ready to start using the software~.
+
+<img src="/assets/software-interface.png" alt="software-interface" style="zoom:50%;" />
