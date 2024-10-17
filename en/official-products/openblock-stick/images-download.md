@@ -1,22 +1,21 @@
 ---
-title: OpenBlock编程棒镜像下载
+title: OpenBlock Stick Image Download
 description: 
 published: true
-date: 2024-10-12T04:19:46.558Z
+date: 2024-10-17T03:53:52.733Z
 tags: 
 editor: markdown
-dateCreated: 2023-10-18T06:00:14.370Z
+dateCreated: 2024-10-17T03:53:52.733Z
 ---
 
-# OpenBlock编程棒镜像发布
+# OpenBlock Programming Stick Image Release
 
-## 下载
+## Download
 
-根据您所处的地区选择合适的通道下载下载最新的镜像。
+Choose the appropriate channel for your region to download the latest image.
 
-- [百度网盘](https://pan.baidu.com/s/1cCDFpOzm4NB_3inbQX-Rug?pwd=6ma4)
 - [Google Drive](https://drive.google.com/drive/folders/13uzJDJvgRiKre2m5uvA0WoAk1mwmrQzo?usp=drive_link)
 {.links-list}
 
-> 镜像烧录方式请参看：[OpenBlock编程棒用户指南#系统升级](/official-products/openblock-stick/user-guide#系统升级)
+> For instructions on how to burn the image, please refer to: [OpenBlock Programming Stick User Guide#System Upgrade](/official-products/openblock-stick/user-guide#系统升级)
 {.is-info}
