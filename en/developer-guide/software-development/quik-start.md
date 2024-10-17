@@ -1,92 +1,90 @@
 ---
-title: 快速开始
+title: Quick Start
 description: 
 published: true
-date: 2024-10-12T04:33:30.363Z
-tags: 开发者
+date: 2024-10-17T04:16:51.645Z
+tags: developer
 editor: markdown
-dateCreated: 2024-07-17T02:38:01.983Z
+dateCreated: 2024-10-17T04:16:51.645Z
 ---
 
-# 快速开始
-## 要求
+# Software Development
 
-请确保你的计算机已经安装好了以下软件或工具。
+## Quick Start
 
-- Node.js 14/16（推荐使用16，过高或过低的 Node.js 版本均会导致在某些步骤编译失败）
-- python2.7
-- git
-- node-gyp（同时根据 [node-gyp](https://github.com/nodejs/node-gyp?tab=readme-ov-file#installation) 官方说明安装必要的本地编译工具）
+### Requirements
 
-## 获取源代码并安装依赖包
+Please ensure that your computer has the following software or tools installed:
 
-1. 克隆工程的核心仓库。
+- Node.js 14/16 (It is recommended to use version 16; using a version that is too high or too low may cause compilation failures in some steps.)
+- Python 2.7
+- Git
+- Node-gyp (Also, install the necessary local compilation tools according to the [node-gyp](https://github.com/nodejs/node-gyp?tab=readme-ov-file#installation) official documentation.)
 
-```bash
-mkdir openblock
-cd openblock
-git clone https://github.com/openblockcc/openblock-gui
-git clone https://github.com/openblockcc/openblock-vm
-git clone https://github.com/openblockcc/openblock-blocks
-git clone https://github.com/openblockcc/openblock-link
-git clone https://github.com/openblockcc/openblock-resource
-```
+### Getting the Source Code and Installing Dependencies
 
-2. 安装依赖并链接
+1. Clone the core repository of the project.
 
-```bash
-cd openblock-blocks
-npm install
-npm link
-cd ..
-cd openblock-vm
-npm install
-npm link
-cd ..
-cd openblock-gui
-npm install
-npm link openblock-blocks openblock-vm
-cd ..
-```
+    ```bash
+    mkdir openblock
+    cd openblock
+    git clone https://github.com/openblockcc/openblock-gui
+    git clone https://github.com/openblockcc/openblock-vm
+    git clone https://github.com/openblockcc/openblock-blocks
+    git clone https://github.com/openblockcc/openblock-link
+    git clone https://github.com/openblockcc/openblock-resource
+    ```
 
-`npm link` 指令会将本地 `npm` 包替换项目内默认的包，这样你在 `openblock-blocks` 等包中的修改才会被 `openblock-gui` 使用，否则它默认使用的将会是从 npm 服务器下载的内容，你可以通过查看 `openblock-gui/node_modules` 下的 `openblock-blocks` 与 `openblock-vm` 的文件夹来确认是否链接成功，如果成功那么他们将被链接到本工程的位置。
+2. Install dependencies and link them.
 
-## 运行
+    ```bash
+    cd openblock-blocks
+    npm install
+    npm link
+    cd ..
+    cd openblock-vm
+    npm install
+    npm link
+    cd ..
+    cd openblock-gui
+    npm install
+    npm link openblock-blocks openblock-vm
+    cd ..
+    ```
 
-1. 启动硬件接口服务器 openblock-link
+The `npm link` command replaces the default packages in the project with local `npm` packages, allowing the modifications you make in packages like `openblock-blocks` to be used by `openblock-gui`. Otherwise, it will default to using the content downloaded from the npm server. You can verify the success of the linking by checking the `openblock-gui/node_modules` folder for the `openblock-blocks` and `openblock-vm` directories; if linked successfully, they will be linked to the project location.
+
+### Running
+
+1. Start the hardware interface server `openblock-link`.
 
 ```bash
 cd openblock-link
 npm start
 ```
 
-2. 启动外部资源服务器 openblock-resource
+2. Start the external resources server `openblock-resource`.
 
-在新的一个终端中执行。
+Execute this in a new terminal.
 
 ```bash
 cd openblock-resource
 npm start
 ```
 
-3. 启动 openblock-gui
+3. Start `openblock-gui`.
 
-在新的一个终端中执行。
+Execute this in a new terminal.
 
 ```bash
 cd openblock-gui
 npm run start
 ```
 
-在 openblock-gui 的 webpack 构建完成后，将会有弹出 openblock-gui 的网页，当然你也可以通过手动输入地址 http://127.0.0.1:8601/ 来访问。
+After the webpack build of `openblock-gui` is completed, a webpage for `openblock-gui` will pop up. Of course, you can also access it by manually entering the address `http://127.0.0.1:8601/`.
 
-> webpack 会持续监听工程内的源代码变动，包括链接到本地的软件包内的代码，也就意味着你在修改 openblock-gui 或是 openblock-vm 中的代码后只需要保存文件，就会触发 webpack 更新编译，这个过程的耗时要比重启 webpack 编译短很多，可以让我们方便的调试代码。
+> Webpack will continue to listen for changes in the source code within the project, including the code linked to local packages. This means that after modifying the code in `openblock-gui` or `openblock-vm`, you only need to save the file to trigger a webpack update and compile. This process takes much less time than restarting the webpack compilation and allows for convenient code debugging.
 {.is-info}
 
-> 但是对于 openblock-blocks 来说，由于其编译模式的特殊 (使用 google-closure-compiler 编译)，在修改其内部代码后我们不仅要在其路径下执行 npm run prepublish 重新编译代码，还需要重启 gui 的 webpack 服务器才能使变动生效。
+> However, for `openblock-blocks`, due to its special compilation mode (using google-closure-compiler for compilation), after modifying its internal code, we need to execute `npm run prepublish` to recompile the code and also restart the webpack server of the GUI to make the changes effective.
 {.is-warning}
-
-
-
-
-
