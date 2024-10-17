@@ -1,29 +1,29 @@
 ---
-title: 本地化
+title: Localization
 description: 
 published: true
-date: 2024-10-12T04:35:40.264Z
-tags: 开发者
+date: 2024-10-17T04:06:02.734Z
+tags: developer
 editor: markdown
-dateCreated: 2024-07-18T07:33:46.082Z
+dateCreated: 2024-10-17T04:06:02.734Z
 ---
 
-# 本地化
+# Localization
 
-## 介绍
+## Introduction
 
-OpenBlock 通过 [transifex](https://www.transifex.com/) 来管理翻译内容，其中 `OpenBlock-Editor` 为编辑器界面积木等核心内容的翻译，`OpenBlock-Extensions` 为官方维护的外部插件翻译。
+OpenBlock manages translation content through [Transifex](https://www.transifex.com/), where `OpenBlock-Editor` covers translations for the editor interface and core content such as blocks, while `OpenBlock-Extensions` pertains to translations for officially maintained external plugins.
 
-## 加入翻译团队
+## Join the Translation Team
 
-你可以访问 [https://www.transifex.com/openblockcc](https://www.transifex.com/openblockcc) 申请加入翻译团队，在所有工程的文本基本翻译完成后我们就会把该语言加入软件支持列表了。如果我们没有及时处理你的申请，请邮件联系：[arthurzheng@openblock.cc](mailto:arthurzheng@openblock.cc)
+You can apply to join the translation team by visiting [https://www.transifex.com/openblockcc](https://www.transifex.com/openblockcc). Once the basic translations for all projects are completed, we will add the language to the software support list. If we do not process your application promptly, please contact us via email at: [arthurzheng@openblock.cc](mailto:arthurzheng@openblock.cc).
 
-## 添加新的语言
+## Adding New Languages
 
-你可以在 [https://www.transifex.com/openblockcc](https://www.transifex.com/openblockcc) 申请添加新的语言。
+You can apply to add new languages at [https://www.transifex.com/openblockcc](https://www.transifex.com/openblockcc).
 
-## 当前翻译进度
+## Current Translation Progress
 
-在下方的页面中点击选择工程可以查看当前的翻译进度。
+Click to select a project on the page below to view the current translation progress.
 
 <iframe src="https://explore.transifex.com/openblockcc/" width="800" height="600"></iframe>
