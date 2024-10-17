@@ -1,33 +1,33 @@
 ---
-title: 添加一个设备
+title: Add a Device
 description: 
 published: true
-date: 2024-10-12T04:28:36.569Z
-tags: 开发者
+date: 2024-10-17T04:34:33.003Z
+tags: developer
 editor: markdown
-dateCreated: 2024-07-17T11:05:31.263Z
+dateCreated: 2024-10-17T04:34:33.003Z
 ---
 
-# 添加一个设备
+# Adding a Device
 
-接下来我们会以创建一个虚构的衍生自 Arduino UNO 的主板 Hoho 的资源为例，演示如何编写添加设备资源。
+Next, we will demonstrate how to write a device resource by creating a fictional motherboard derived from Arduino UNO called Hoho.
 
-1. 创建设备文件夹
+1. Create Device Folder
 
-首先在 `./devices` 文件夹下创建一个新的文件夹以主板名称命名并遵循驼峰规则：`hoho`
+First, create a new folder under the `./devices` directory named after the motherboard, following camel case: `hoho`.
 
 ```bash
 mkdir ./devices/hoho
 cd ./devices/hoho
 ```
 
-2. 创建 `index.js` 文件
+2. Create `index.js` File
 
-`index.js` 是用来描述设备各个属性的文件，创建这个文件，并写入以下内容。
+The `index.js` file is used to describe various attributes of the device. Create this file and write the following content.
 
 ```js
 const hoho = formatMessage => ({
-    name:  formatMessage({
+    name: formatMessage({
         id: 'hoho.name',
         default: 'Hoho',
         description: 'Name for the hoho device'
@@ -64,11 +64,11 @@ const hoho = formatMessage => ({
 module.exports = hoho;
 ```
 
-其中 `deviceId: 'hoho_arduinoUno'` 属性表明了它是一个继承自 arduinoUno 的设备，它拥有 Arduino UNO 全部的积木内容及功能，只是修改了其部分属性。
+The `deviceId: 'hoho_arduinoUno'` attribute indicates that it is a device inheriting from arduinoUno, which has all the block content and functions of Arduino UNO, with only some attributes modified.
 
-3. 添加设备图片
+3. Add Device Images
 
-按照 `index.js` 文件中的定义，创建 `assets` 文件夹并下载放入下方的3张图片。
+According to the definitions in the `index.js` file, create an `assets` folder and download the three images below into it.
 
 - [hoho.svg](/developer-guide/plugin-development/add-a-device/hoho.png)
 
@@ -76,15 +76,15 @@ module.exports = hoho;
 
 - [hoho-illustration.svg](/developer-guide/plugin-development/add-a-device/hoho-illustration.svg)
 
-![hoho.png](/developer-guide/plugin-development/add-a-device/hoho-illustration.svg)
+![hoho-illustration.png](/developer-guide/plugin-development/add-a-device/hoho-illustration.svg)
 
 - [hoho-small.svg](/developer-guide/plugin-development/add-a-device/hoho-small.svg)
 
-![hoho.png](/developer-guide/plugin-development/add-a-device/hoho-small.svg)
+![hoho-small.png](/developer-guide/plugin-development/add-a-device/hoho-small.svg)
 
-4. 创建 `translations.js` 文件
+4. Create `translations.js` File
 
-此文件用于提供多语言翻译内容，创建 `translations.js` 文件，并将以下内容写入。
+This file is used to provide multilingual translation content. Create the `translations.js` file and write the following content.
 
 ```js
 function getInterfaceTranslations () {
@@ -113,11 +113,11 @@ if (typeof module !== 'undefined') {
 }
 ```
 
-5. 最后重启 OpenBlock，我们就可以在设备选择界面中看到并选择这个新添加的设备了。
+5. Finally, restart OpenBlock, and we will be able to see and select this newly added device in the device selection interface.
 
 ![demodevoceselection.png](/developer-guide/plugin-development/add-a-device/demodevoceselection.png)
 ![demodeviceconnected.png](/developer-guide/plugin-development/add-a-device/demodeviceconnected.png)
 
-## 附件
+## Attachment
 
-[1] [hoho 设备资源包.zip](/developer-guide/plugin-development/add-a-device/hoho.zip)
+[1] [hoho Device Resource Package.zip](/developer-guide/plugin-development/add-a-device/hoho.zip)
