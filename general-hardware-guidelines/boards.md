@@ -2,7 +2,7 @@
 title: 控制板
 description: 
 published: true
-date: 2024-10-17T03:56:14.286Z
+date: 2024-10-17T03:56:37.719Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T04:48:44.619Z
@@ -33,7 +33,7 @@ dateCreated: 2022-10-07T04:48:44.619Z
 
 ## 树莓派基金会
 
-- [Raspberry Pi Pico](/zh/general-hardware-guidelines/boards/raspberry-pi-pico)
+- [Raspberry Pi Pico](/general-hardware-guidelines/boards/raspberry-pi-pico)
 {.links-list}
 
 ## Micro:bit 教育基金会
