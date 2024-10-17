@@ -2,7 +2,7 @@
 title: home
 description: 
 published: true
-date: 2024-10-17T05:59:16.045Z
+date: 2024-10-17T05:59:57.266Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-27T15:23:14.183Z
@@ -24,7 +24,7 @@ Welcome to the OpenBlock Wiki, where you can find user guides for the OpenBlock 
 ## Hardware Support
 
 - [Control Boards](./general-hardware-guidelines/boards)
-- [Other Modules]
+- Other Modules
 {.links-list}
 
 ## Developer Guide
