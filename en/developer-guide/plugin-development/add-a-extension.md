@@ -1,29 +1,29 @@
 ---
-title: 添加一个扩展
+title: Add an Extension
 description: 
 published: true
-date: 2024-10-12T04:28:58.713Z
-tags: 开发者
+date: 2024-10-17T04:32:57.324Z
+tags: developer
 editor: markdown
-dateCreated: 2024-07-17T16:11:53.906Z
+dateCreated: 2024-10-17T04:32:57.324Z
 ---
 
-# 添加一个扩展
+# Adding an Extension
 
-接下来我们会以创建一个兼容 Arduino UNO 的 LED 模块资源为例，演示如何编写添加扩展资源。
+Next, we will demonstrate how to write an extension resource by creating an LED module resource compatible with Arduino UNO as an example.
 
-1. 创建扩展文件夹
+1. Create an Extension Folder
 
-首先在 `./extensions` 文件夹下创建一个新的文件夹以扩展名称命名并遵循驼峰规则：`commonLed`
+First, create a new folder in the `./extensions` directory named after the extension, following camel case: `commonLed`.
 
 ```bash
 mkdir ./extensions/commonLed
 cd ./extensions/commonLed
 ```
 
-2. 创建 `index.js` 文件
+2. Create `index.js` File
 
-`index.js` 是用来描述扩展各个属性的文件，创建这个文件，并写入以下内容。
+The `index.js` file is used to describe various attributes of the extension. Create this file and write the following content.
 
 ```js
 const commonLed = formatMessage => ({
@@ -54,15 +54,15 @@ const commonLed = formatMessage => ({
 module.exports = commonLed;
 ```
 
-然后按照 `iconURL` 属性的设定，创建 `assets` 文件夹，下载下方的图片并放入。
+Then, according to the `iconURL` attribute, create an `assets` folder, download the image below, and place it inside.
 
 - [commonled.png](/developer-guide/plugin-development/add-a-extension/commonled.png)
 
 ![commonled.png](/developer-guide/plugin-development/add-a-extension/commonled.png)
 
-3. 创建 `blocks.js` 文件
+3. Create `blocks.js` File
 
-这个文件描述了积木的样式结构，创建它并写入以下内容。
+This file describes the style structure of the blocks. Create it and write the following content.
 
 ```js
 function registerBlocks (Blockly) {
@@ -98,11 +98,11 @@ function registerBlocks (Blockly) {
 
 exports = registerBlocks;
 ```
-其中 Blockly.Msg.XXX 的内容是多语言支持文本，他们的实际内容定义在 `translations.js` 文件中。
+The contents of `Blockly.Msg.XXX` are multilingual support texts, and their actual content is defined in the `translations.js` file.
 
-4. 创建 `toolbox.js` 文件
+4. Create `toolbox.js` File
 
-这个文件定义了积木在左侧工具栏中的样式，创建它并写入以下内容。
+This file defines the style of the blocks in the left toolbox. Create it and write the following content.
 
 ```js
 function registerToolboxs () {
@@ -121,11 +121,11 @@ function registerToolboxs () {
 exports = registerToolboxs;
 ```
 
-其中 `BKY_COMMONLED_CATEGORY` 工具栏目录的名称，它是一个多语言支持的文本，实际内容定义在 `translations.js` 文件中。
+The `BKY_COMMONLED_CATEGORY` toolbox category name is a multilingual support text, and its actual content is defined in the `translations.js` file.
 
-5. 创建 `translations.js` 文件
+5. Create `translations.js` File
 
-此文件为多语言支持的翻译文件，创建它并写入以下内容。
+This file serves as a translation file for multilingual support. Create it and write the following content.
 
 ```js
 function getInterfaceTranslations () {
@@ -196,9 +196,9 @@ if (typeof module !== 'undefined') {
 exports = registerBlocksMessages;
 ```
 
-5. 创建 `generator.js` 文件
+6. Create `generator.js` File
 
-`generator.js` 文件定义了此资源的积木的代码生成规则，创建它并写入以下内容。
+The `generator.js` file defines the code generation rules for the blocks of this resource. Create it and write the following content.
 
 ```js
 function registerGenerators (Blockly) {
@@ -217,13 +217,13 @@ function registerGenerators (Blockly) {
 exports = registerGenerators;
 ```
 
-7. 完成
+7. Completion
 
-最后我们重启或打开 OpenBlock ，选择 Arduino UNO 并切换到上传模式，然后我们就可以在扩展选择界面中使用我们刚刚创建的新模块了。
+Finally, we restart or open OpenBlock, select Arduino UNO, switch to upload mode, and we can use the new module we just created in the extension selection interface.
 
 ![commonledselection.png](/developer-guide/plugin-development/add-a-extension/commonledselection.png)
 ![commonleduseage.png](/developer-guide/plugin-development/add-a-extension/commonleduseage.png)
 
-## 附件
+## Attachment
 
-[1] [commonLed 扩展资源包.zip](/developer-guide/plugin-development/add-a-extension/commonled.zip)
+[1] [commonLed Extension Resource Package.zip](/developer-guide/plugin-development/add-a-extension/commonled.zip)
