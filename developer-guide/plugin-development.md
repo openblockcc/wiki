@@ -2,7 +2,7 @@
 title: 插件开发
 description: 
 published: true
-date: 2024-10-12T04:38:44.379Z
+date: 2024-10-17T04:29:25.593Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-17T02:37:35.034Z
@@ -28,7 +28,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 
 ## 快速开始
 
-- [准备工作 *在正式开始编写资源前，我们首先需要搭建开发环境*](./plugin-development/reparations)
+- [准备工作 *在正式开始编写资源前，我们首先需要搭建开发环境*](./plugin-development/preparations)
 - [添加一个扩展*编写添加一个 LED 模块*](./plugin-development/add-a-extension)
 - [添加一个设备*编写添加一个由 Arduino UNO 修改衍生的电路板*](./plugin-development/add-a-device)
 {.links-list}
