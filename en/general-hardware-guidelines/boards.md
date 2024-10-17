@@ -2,7 +2,7 @@
 title: Boards
 description: 
 published: true
-date: 2024-10-17T03:56:50.180Z
+date: 2024-10-17T03:58:29.281Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-27T16:20:08.530Z
