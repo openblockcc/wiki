@@ -2,7 +2,7 @@
 title: 首页
 description: 
 published: true
-date: 2024-07-19T14:31:26.135Z
+date: 2024-10-17T05:58:45.751Z
 tags: 
 editor: markdown
 dateCreated: 2022-07-11T12:41:15.723Z
@@ -11,19 +11,20 @@ dateCreated: 2022-07-11T12:41:15.723Z
 # 首页
 欢迎访问 OpenBlock Wiki，在这里你可以找到 OpenBlock 编程软件的使用说明、深度适配 OpenBlock 的硬件产品指南以及在 OpenBlock 加入新的模块插件和控制板的开发教程。
 
-- [openblock介绍](./introduction)
+- [介绍](./introduction)
+- [安装桌面版](./install-desktop-version)
 {.links-list}
 
-## OpenBlock官方产品
+## OpenBlock产品
 - [OpenBlock社区版](./official-products/openblock-community-edition)
 - [OpenBlock发行版](./official-products/openblock-distribution)
 - [OpenBlock编程棒](./official-products/openblock-stick)
 {.links-list}
 
-## 通用硬件支持列表
+## 硬件支持
 
-- [核心控制板](./general-hardware-guidelines/boards)
-- [传感器及其他模块]
+- [控制板](./general-hardware-guidelines/boards)
+- [其他模块]
 {.links-list}
 
 ## 开发者指南
