@@ -1,33 +1,33 @@
 ---
-title: 构建 OpenBlock Desktop
+title: Building OpenBlock Desktop
 description: 
 published: true
-date: 2024-10-12T04:34:32.634Z
-tags: 开发者
+date: 2024-10-17T04:20:33.770Z
+tags: devedeve
 editor: markdown
-dateCreated: 2024-07-18T08:21:26.909Z
+dateCreated: 2024-10-17T04:20:33.770Z
 ---
 
-# 构建 OpenBlock Desktop
+# Building OpenBlock Desktop
 
-## 准备工作
+## Preparation
 
-1. 首先获取桌面版源代码
+1. First, obtain the source code for the desktop version.
 
 ```bash
 git clone https://github.com/openblockcc/openblock-desktop
 cd openblock-desktop
 ```
 
-2. 安装依赖包
+2. Install the dependencies.
 
 ```bash
 npm ci
 ```
 
-## 运行与调试
+## Running and Debugging
 
-编译代码并启动
+Compile the code and start.
 
 ```bash
 cd openblock-desktop
@@ -35,7 +35,7 @@ npm run compile
 npm run start
 ```
 
-在 electron 启动后，我们可以使用以下快捷键打开网页控制台。
+After Electron starts, you can use the following shortcuts to open the web console.
 
 ### Tab {.tabset}
 
@@ -49,11 +49,11 @@ npm run start
 
 ### Tab {.tabset}
 
-## 使用本地的依赖包
+## Using Local Dependencies
 
-1. 切换 `openblock-gui` 分支并链接到本地的依赖包
+1. Switch to the `openblock-gui` branch and link to the local dependencies.
 
-注意在打包桌面版时，我们需要切换 `openblock-gui` 到 `desktop` 分支，该分支在处理一些静态图片等内容上相较 `main` 分支有所调整，以适配本地运行。如果在此之前你已经在 `develop` 分支下变动了代码，不要担心，使用 `git commit` 指令提交这些变更，并在切换到 `desktop` 分支后使用 `git merg` 指令合并即可。
+Note that when packaging the desktop version, we need to switch `openblock-gui` to the `desktop` branch. This branch has some adjustments related to handling static images and other content compared to the `main` branch, to accommodate local execution. If you have made changes in the `develop` branch before this, don't worry; use the `git commit` command to submit those changes, and then merge them after switching to the `desktop` branch using the `git merge` command.
 
 ```bash
 git checkout desktop
@@ -61,21 +61,21 @@ npm link openblock-blocks openblock-vm
 npm link
 ```
 
-2. 在 `openblock-desktop` 中链接 `openblock-gui`
+2. Link `openblock-gui` in `openblock-desktop`.
 
 ```bash
 npm link openblock-gui
 ```
 
-同样的如果你还有其他的本地软件包，也按照这样的方式链接即可。
+Similarly, if you have other local packages, you can link them in this way.
 
-## 打包
+## Packaging
 
 ```bash
 npm run dist
 ```
 
-打包结束后就可以在 dist 文件夹下找到打包好的软件了。
+Once the packaging is complete, you can find the packaged software in the `dist` folder.
 
-> 如果你需要打包不同系统版本（如：MacOS，Linux）的软件，只要在不同系统下执行打包命令即可。
+> If you need to package different system versions (e.g., MacOS, Linux), just execute the packaging command in the respective system.
 {.is-info}
