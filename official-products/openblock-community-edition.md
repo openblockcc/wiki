@@ -2,7 +2,7 @@
 title: OpenBlock社区版
 description: 
 published: true
-date: 2024-10-17T05:47:29.109Z
+date: 2024-10-17T05:47:43.077Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-22T10:32:51.895Z
@@ -11,15 +11,6 @@ dateCreated: 2023-12-22T10:32:51.895Z
 # openblock社区版
 
 openblock社区版是一个遵循MIT开源协议的开源项目。我们欢迎任何个人或组织加入参与和使用。  
-
-## 入门
-- [OpenBlock Desktop 软件安装](/zh/install-software)
-{.links-list}
-
-
-## 用户指南
-- [使用]
-{.links-list}
 
 ## 加入开发
 
