@@ -2,7 +2,7 @@
 title: OpenBlock编程棒镜像下载
 description: 
 published: true
-date: 2024-10-12T04:19:54.531Z
+date: 2024-12-13T04:59:47.773Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-18T06:00:14.370Z
@@ -20,3 +20,11 @@ dateCreated: 2023-10-18T06:00:14.370Z
 
 > 镜像烧录方式请参看：[OpenBlock编程棒用户指南#系统升级](/official-products/openblock-stick/user-guide#系统升级)
 {.is-info}
+
+## 更新日志
+
+### OpenBlock_Stick_v2.1.3_2024-12-13
+
+- 修复错误
+
+1. 修复角色及背景资源无法显示的问题
