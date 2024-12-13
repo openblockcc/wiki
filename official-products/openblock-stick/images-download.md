@@ -2,7 +2,7 @@
 title: OpenBlock编程棒镜像下载
 description: 
 published: true
-date: 2024-12-13T04:59:47.773Z
+date: 2024-12-13T05:01:17.771Z
 tags: 
 editor: markdown
 dateCreated: 2023-10-18T06:00:14.370Z
@@ -27,4 +27,4 @@ dateCreated: 2023-10-18T06:00:14.370Z
 
 - 修复错误
 
-1. 修复角色及背景资源无法显示的问题
+1. 修复角色及背景资源无法显示的问题。
