@@ -2,7 +2,7 @@
 title: Raspberry Pi Pico
 description: 
 published: true
-date: 2024-10-17T03:58:18.007Z
+date: 2025-05-01T17:20:34.511Z
 tags: boards
 editor: markdown
 dateCreated: 2024-10-17T03:58:18.007Z
