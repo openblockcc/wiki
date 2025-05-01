@@ -1,54 +1,53 @@
 ---
 title: Raspberry Pi Pico
-description: 树莓派 Pico 使用指南
+description: 
 published: true
-date: 2024-10-12T04:06:16.409Z
-tags: 主板
+date: 2025-05-01T17:22:45.150Z
+tags: boards
 editor: markdown
-dateCreated: 2022-10-06T11:52:32.452Z
+dateCreated: 2024-10-17T03:58:18.007Z
 ---
 
 # Raspberry Pi Pico
 
-## 介绍
+## Introduction
 
-### 引脚图
+### Pin Diagram
 
 ![pico.png](/general-hardware-guidelines/boards/raspberry-pi-pico/pico.png)
 
-## Arduino 编程指南
+## Arduino Programming Guide
 
-### 首次使用
+### First Use
 
-在首次使用 Arduino 编程框架时需要预先手动烧录 Arduino Bootloader 固件，步骤如下：
+When using the Arduino programming framework for the first time, you need to manually flash the Arduino Bootloader firmware. Follow these steps:
 
-1. 下载 sketch.ino.uf2 文件：
+1. Download the `sketch.ino.uf2` file:
 
 	- [sketch.ino.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/sketch.ino.uf2)
   
-2. 按住 BOOTSEL 按钮并将 Pico 插入计算机的 USB 端口，连接 Pico 后松开 BOOTSEL 按钮。
-3. 它将识别为名称是 RPI-RP2 的大容量存储设备。
-4. 将 .uf2 文件拖放到 RPI-RP2 中，而后您的 Pico 将自动重新启动。
-5. 现在就可以使用 OpenBlock 连接主板开始编程了。
+2. Press and hold the BOOTSEL button, then insert the Pico into the USB port of your computer. Release the BOOTSEL button after connecting the Pico.
+3. It will be recognized as a mass storage device named RPI-RP2.
+4. Drag and drop the `.uf2` file into RPI-RP2, and your Pico will automatically restart.
+5. You can now use OpenBlock to connect to the board and start programming.
 
-> 注意目前版本下 OpenBlock 还无法自动切换 Raspberry Pi Pico 的固件，在每次切换编程框架后都需要手动下载一次对应的固件。
+> Note: In the current version, OpenBlock cannot automatically switch the firmware of the Raspberry Pi Pico. You need to manually download the corresponding firmware each time you switch programming frameworks.
 {.is-warning}
 
+## MicroPython Programming Guide (Distro Version Only)
 
-## MicroPython 编程指南（仅适用于Distro版本）
+### First Use
 
-### 首次使用
+When using the MicroPython programming framework for the first time, you need to manually flash the MicroPython firmware. Follow these steps:
 
-在首次使用 MicroPython 编程框架时需要预先手动烧录 MicroPython 固件，步骤如下：
-
-1. 下载 sketch.ino.uf2 文件：
+1. Download the `RPI_PICO-20240602-v1.23.0.uf2` file:
 
 	- [RPI_PICO-20240602-v1.23.0.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/RPI_PICO-20240602-v1.23.0.uf2)
   
-2. 按住 BOOTSEL 按钮并将 Pico 插入计算机的 USB 端口，连接 Pico 后松开 BOOTSEL 按钮。
-3. 它将识别为名称是 RPI-RP2 的大容量存储设备。
-4. 将 .uf2 文件拖放到 RPI-RP2 中，而后您的 Pico 将自动重新启动。
-5. 现在就可以使用 OpenBlock 连接主板开始编程了。
+2. Press and hold the BOOTSEL button, then insert the Pico into the USB port of your computer. Release the BOOTSEL button after connecting the Pico.
+3. It will be recognized as a mass storage device named RPI-RP2.
+4. Drag and drop the `.uf2` file into RPI-RP2, and your Pico will automatically restart.
+5. You can now use OpenBlock to connect to the board and start programming.
 
-> 注意目前版本下 OpenBlock 还无法自动切换 Raspberry Pi Pico 的固件，在每次切换编程框架后都需要手动下载一次对应的固件。
+> Note: In the current version, OpenBlock cannot automatically switch the firmware of the Raspberry Pi Pico. You need to manually download the corresponding firmware each time you switch programming frameworks.
 {.is-warning}
