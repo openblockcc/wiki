@@ -2,7 +2,7 @@
 title: Boards
 description: 
 published: true
-date: 2025-05-01T17:21:34.644Z
+date: 2025-05-01T17:23:14.416Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-27T16:20:08.530Z
@@ -33,7 +33,7 @@ dateCreated: 2023-12-27T16:20:08.530Z
 
 ## Raspberry Pi Foundation
 
-- [Raspberry Pi Pico](general-hardware-guidelines/boards/raspberry-pi-pico)
+- [Raspberry Pi Pico](/general-hardware-guidelines/boards/raspberry-pi-pico)
 {.links-list}
 
 ## Micro:bit Educational Foundation
