@@ -2,7 +2,7 @@
 title: Boards
 description: 
 published: true
-date: 2025-05-05T14:12:49.443Z
+date: 2025-05-05T14:17:22.827Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-27T16:20:08.530Z
@@ -12,25 +12,25 @@ dateCreated: 2023-12-27T16:20:08.530Z
 
 ## Arduino
 
-- Arduino Uno
-- Arduino Nano
-- Arduino Leonardo
-- Arduino Mega 2560
-- Arduino Micro
-- Arduino Uno R4 Minima
-- Arduino Uno R4 WiFi
+- [Arduino Uno](/general-hardware-guidelines/boards/arduino-uno)
+- [Arduino Nano](/general-hardware-guidelines/boards/arduino-nano)
+- [Arduino Leonardo](/general-hardware-guidelines/boards/arduino-leonardo)
+- [Arduino Mega 2560](/general-hardware-guidelines/boards/arduino-mega2560)
+- [Arduino Micro](/general-hardware-guidelines/boards/arduino-micro)
+- [Arduino Uno R4 Minima](/general-hardware-guidelines/boards/arduino-uno-r4-minima)
+- [Arduino Uno R4 WiFi](/general-hardware-guidelines/boards/arduino-uno-r4-wifi)
 {.links-list}
 
 ## Espressif
 
-- ESP32
-- ESP8266
+- [ESP32](/general-hardware-guidelines/boards/esp32)
+- [ESP8266](/general-hardware-guidelines/boards/esp8266)
 {.links-list}
 
 ## Sipeed
 
-- maixDock
-- maixduino
+- [maixDock](/general-hardware-guidelines/boards/maixdock)
+- [maixduino](/general-hardware-guidelines/boards/maixduino)
 {.links-list}
 
 ## Raspberry Pi Foundation
@@ -43,6 +43,6 @@ dateCreated: 2023-12-27T16:20:08.530Z
 
 ## Micro:bit Educational Foundation
 
-- microbit
-- microbit-v2
+- [microbit](/general-hardware-guidelines/boards/microbit)
+- [microbit-v2](/general-hardware-guidelines/boards/microbit-v2)
 {.links-list}
