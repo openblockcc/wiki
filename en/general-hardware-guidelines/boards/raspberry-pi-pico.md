@@ -2,7 +2,7 @@
 title: Raspberry Pi Pico
 description: 
 published: true
-date: 2025-05-05T15:13:32.683Z
+date: 2025-05-05T15:13:41.966Z
 tags: boards
 editor: markdown
 dateCreated: 2024-10-17T03:58:18.007Z
@@ -22,7 +22,7 @@ dateCreated: 2024-10-17T03:58:18.007Z
 
 When using the Arduino programming framework for the first time, you need to manually flash the Arduino Bootloader firmware. Follow these steps:
 
-1. Download the `sketch.ino.uf2` file:
+1. Download the `pico.ino.uf2` file:
 
 	- [pico.ino.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/pico.ino.uf2)
   
