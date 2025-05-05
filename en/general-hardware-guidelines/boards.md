@@ -2,7 +2,7 @@
 title: Boards
 description: 
 published: true
-date: 2025-05-01T17:23:14.416Z
+date: 2025-05-05T14:12:49.443Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-27T16:20:08.530Z
@@ -17,6 +17,8 @@ dateCreated: 2023-12-27T16:20:08.530Z
 - Arduino Leonardo
 - Arduino Mega 2560
 - Arduino Micro
+- Arduino Uno R4 Minima
+- Arduino Uno R4 WiFi
 {.links-list}
 
 ## Espressif
@@ -34,6 +36,9 @@ dateCreated: 2023-12-27T16:20:08.530Z
 ## Raspberry Pi Foundation
 
 - [Raspberry Pi Pico](/general-hardware-guidelines/boards/raspberry-pi-pico)
+- [Raspberry Pi Pico W](/general-hardware-guidelines/boards/raspberry-pi-picow)
+- [Raspberry Pi Pico 2](/general-hardware-guidelines/boards/raspberry-pi-pico2)
+- [Raspberry Pi Pico 2 W](/general-hardware-guidelines/boards/raspberry-pi-pico2w)
 {.links-list}
 
 ## Micro:bit Educational Foundation
