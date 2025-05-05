@@ -2,8 +2,8 @@
 title: Raspberry Pi Pico
 description: 树莓派 Pico 使用指南
 published: true
-date: 2025-05-05T15:13:09.317Z
-tags: 主板
+date: 2025-05-05T15:34:45.905Z
+tags: 控制板
 editor: markdown
 dateCreated: 2022-10-06T11:52:32.452Z
 ---
