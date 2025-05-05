@@ -2,7 +2,7 @@
 title: 控制板
 description: 
 published: true
-date: 2025-05-05T14:17:25.024Z
+date: 2025-05-05T15:45:20.700Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T04:48:44.619Z
