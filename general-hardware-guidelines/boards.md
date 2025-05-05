@@ -2,13 +2,13 @@
 title: 控制板
 description: 
 published: true
-date: 2025-05-05T15:45:20.700Z
+date: 2025-05-05T15:45:28.951Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T04:48:44.619Z
 ---
 
-# 核心控制板
+# 控制板
 
 ## Arduino
 
