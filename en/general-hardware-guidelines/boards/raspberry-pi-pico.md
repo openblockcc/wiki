@@ -2,7 +2,7 @@
 title: Raspberry Pi Pico
 description: 
 published: true
-date: 2025-05-05T14:24:13.652Z
+date: 2025-05-05T15:13:32.683Z
 tags: boards
 editor: markdown
 dateCreated: 2024-10-17T03:58:18.007Z
@@ -14,7 +14,7 @@ dateCreated: 2024-10-17T03:58:18.007Z
 
 ### Pin Diagram
 
-![pico.png](/general-hardware-guidelines/boards/raspberry-pi-pico/pico.png)
+![pico-pinout.png](/general-hardware-guidelines/boards/raspberry-pi-pico/pico-pinout.png)
 
 ## Arduino Programming Guide
 
@@ -24,7 +24,7 @@ When using the Arduino programming framework for the first time, you need to man
 
 1. Download the `sketch.ino.uf2` file:
 
-	- [sketch.ino.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/sketch.ino.uf2)
+	- [pico.ino.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/pico.ino.uf2)
   
 2. Press and hold the BOOTSEL button, then insert the Pico into the USB port of your computer. Release the BOOTSEL button after connecting the Pico.
 3. It will be recognized as a mass storage device named RPI-RP2.
