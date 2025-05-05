@@ -2,7 +2,7 @@
 title: 控制板
 description: 
 published: true
-date: 2025-05-01T17:22:01.327Z
+date: 2025-05-05T14:12:22.797Z
 tags: 
 editor: markdown
 dateCreated: 2022-10-07T04:48:44.619Z
@@ -17,6 +17,8 @@ dateCreated: 2022-10-07T04:48:44.619Z
 - Arduino Leonardo
 - Arduino Mega 2560
 - Arduino Micro
+- Arduino Uno R4 Minima
+- Arduino Uno R4 WiFi
 {.links-list}
 
 ## 乐鑫
@@ -34,6 +36,9 @@ dateCreated: 2022-10-07T04:48:44.619Z
 ## 树莓派基金会
 
 - [Raspberry Pi Pico](/general-hardware-guidelines/boards/raspberry-pi-pico)
+- [Raspberry Pi Pico W](/general-hardware-guidelines/boards/raspberry-pi-picow)
+- [Raspberry Pi Pico 2](/general-hardware-guidelines/boards/raspberry-pi-pico2)
+- [Raspberry Pi Pico 2 W](/general-hardware-guidelines/boards/raspberry-pi-pico2w)
 {.links-list}
 
 ## Micro:bit 教育基金会
