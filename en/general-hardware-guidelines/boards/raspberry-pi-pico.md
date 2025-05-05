@@ -2,7 +2,7 @@
 title: Raspberry Pi Pico
 description: 
 published: true
-date: 2025-05-01T17:22:45.150Z
+date: 2025-05-05T14:24:13.652Z
 tags: boards
 editor: markdown
 dateCreated: 2024-10-17T03:58:18.007Z
@@ -40,9 +40,9 @@ When using the Arduino programming framework for the first time, you need to man
 
 When using the MicroPython programming framework for the first time, you need to manually flash the MicroPython firmware. Follow these steps:
 
-1. Download the `RPI_PICO-20240602-v1.23.0.uf2` file:
+1. Download the MicroPython firmware from the link below:
 
-	- [RPI_PICO-20240602-v1.23.0.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/RPI_PICO-20240602-v1.23.0.uf2)
+	- [https://micropython.org/download/RPI_PICO/](https://micropython.org/download/RPI_PICO/)
   
 2. Press and hold the BOOTSEL button, then insert the Pico into the USB port of your computer. Release the BOOTSEL button after connecting the Pico.
 3. It will be recognized as a mass storage device named RPI-RP2.
