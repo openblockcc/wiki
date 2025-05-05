@@ -2,7 +2,7 @@
 title: Raspberry Pi Pico W
 description: 树莓派 Pico W 使用指南
 published: true
-date: 2025-05-05T15:10:39.632Z
+date: 2025-05-05T15:24:52.121Z
 tags: 主板
 editor: markdown
 dateCreated: 2025-05-05T15:10:39.632Z
@@ -14,7 +14,7 @@ dateCreated: 2025-05-05T15:10:39.632Z
 
 ### 引脚图
 
-![pico.png](/general-hardware-guidelines/boards/raspberry-pi-picow/picow-pinout.svg)
+![picow-pinout.png](/general-hardware-guidelines/boards/raspberry-pi-picow/picow-pinout.svg)
 
 ## Arduino 编程指南
 
