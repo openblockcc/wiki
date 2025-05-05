@@ -2,7 +2,7 @@
 title: Raspberry Pi Pico
 description: 树莓派 Pico 使用指南
 published: true
-date: 2024-10-12T04:06:29.224Z
+date: 2025-05-05T14:23:28.433Z
 tags: 主板
 editor: markdown
 dateCreated: 2022-10-06T11:52:32.452Z
@@ -41,9 +41,9 @@ dateCreated: 2022-10-06T11:52:32.452Z
 
 在首次使用 MicroPython 编程框架时需要预先手动烧录 MicroPython 固件，步骤如下：
 
-1. 下载 sketch.ino.uf2 文件：
+1. 从下方链接中下载 MicroPython 固件：
 
-	- [RPI_PICO-20240602-v1.23.0.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/RPI_PICO-20240602-v1.23.0.uf2)
+	- [https://micropython.org/download/RPI_PICO/](https://micropython.org/download/RPI_PICO/)
   
 2. 按住 BOOTSEL 按钮并将 Pico 插入计算机的 USB 端口，连接 Pico 后松开 BOOTSEL 按钮。
 3. 它将识别为名称是 RPI-RP2 的大容量存储设备。
