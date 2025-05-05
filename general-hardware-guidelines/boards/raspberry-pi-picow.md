@@ -2,8 +2,8 @@
 title: Raspberry Pi Pico W
 description: 树莓派 Pico W 使用指南
 published: true
-date: 2025-05-05T15:26:28.176Z
-tags: 主板
+date: 2025-05-05T15:34:19.640Z
+tags: 控制板
 editor: markdown
 dateCreated: 2025-05-05T15:10:39.632Z
 ---
