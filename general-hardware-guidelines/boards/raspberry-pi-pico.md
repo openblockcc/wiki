@@ -2,7 +2,7 @@
 title: Raspberry Pi Pico
 description: 树莓派 Pico 使用指南
 published: true
-date: 2025-05-05T14:23:28.433Z
+date: 2025-05-05T15:12:48.945Z
 tags: 主板
 editor: markdown
 dateCreated: 2022-10-06T11:52:32.452Z
@@ -14,7 +14,7 @@ dateCreated: 2022-10-06T11:52:32.452Z
 
 ### 引脚图
 
-![pico.png](/general-hardware-guidelines/boards/raspberry-pi-pico/pico.png)
+![pico-pinout.png](/general-hardware-guidelines/boards/raspberry-pi-pico/pico-pinout.png)
 
 ## Arduino 编程指南
 
@@ -22,9 +22,9 @@ dateCreated: 2022-10-06T11:52:32.452Z
 
 在首次使用 Arduino 编程框架时需要预先手动烧录 Arduino Bootloader 固件，步骤如下：
 
-1. 下载 sketch.ino.uf2 文件：
+1. 下载 pico.ino.uf2 文件：
 
-	- [sketch.ino.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/sketch.ino.uf2)
+	- [pico.ino.uf2](/general-hardware-guidelines/boards/raspberry-pi-pico/sketch.ino.uf2)
   
 2. 按住 BOOTSEL 按钮并将 Pico 插入计算机的 USB 端口，连接 Pico 后松开 BOOTSEL 按钮。
 3. 它将识别为名称是 RPI-RP2 的大容量存储设备。
