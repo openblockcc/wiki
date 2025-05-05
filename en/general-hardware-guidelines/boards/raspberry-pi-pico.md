@@ -1,8 +1,8 @@
 ---
 title: Raspberry Pi Pico
-description: 
+description: Raspberry Pi Pico User Guide
 published: true
-date: 2025-05-05T15:13:41.966Z
+date: 2025-05-05T15:16:05.664Z
 tags: boards
 editor: markdown
 dateCreated: 2024-10-17T03:58:18.007Z
