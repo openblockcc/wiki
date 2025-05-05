@@ -2,7 +2,7 @@
 title: Raspberry Pi Pico W
 description: 树莓派 Pico W 使用指南
 published: true
-date: 2025-05-05T15:24:52.121Z
+date: 2025-05-05T15:26:28.176Z
 tags: 主板
 editor: markdown
 dateCreated: 2025-05-05T15:10:39.632Z
@@ -22,7 +22,7 @@ dateCreated: 2025-05-05T15:10:39.632Z
 
 在首次使用 Arduino 编程框架时需要预先手动烧录 Arduino Bootloader 固件，步骤如下：
 
-1. 下载 sketch.ino.uf2 文件：
+1. 下载 picow.ino.uf2 文件：
 
 	- [picow.ino.uf2](/general-hardware-guidelines/boards/raspberry-pi-picow/picow.ino.uf2)
   
