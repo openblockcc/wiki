@@ -2,13 +2,13 @@
 title: Boards
 description: 
 published: true
-date: 2025-05-05T14:17:22.827Z
+date: 2025-05-05T15:45:43.762Z
 tags: 
 editor: markdown
 dateCreated: 2023-12-27T16:20:08.530Z
 ---
 
-# Core Control Boards
+# Boards
 
 ## Arduino
 
