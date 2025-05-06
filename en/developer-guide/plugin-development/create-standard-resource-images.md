@@ -2,7 +2,7 @@
 title: Create Standard Resource Images
 description: 
 published: true
-date: 2024-10-17T04:37:32.373Z
+date: 2025-05-06T12:13:23.490Z
 tags: developer
 editor: markdown
 dateCreated: 2024-10-17T04:37:32.373Z
@@ -24,7 +24,7 @@ This image is displayed in the device or extension selection interface. The stan
 
 There should be a specified margin around the image. You can download the image below and modify it. Scale the content proportionally, center it, and try to fill the green area in the middle. Then, replace the background color with white.
 
-- [standardimage.png](/developer-guide/plugin-development/create-standard-resource-images/standardpimage.png)
+- [standardimage.png](/developer-guide/plugin-development/create-standard-resource-images/standardimage.png)
 
 ![standardimage.png](/developer-guide/plugin-development/create-standard-resource-images/standardimage.png)
 
