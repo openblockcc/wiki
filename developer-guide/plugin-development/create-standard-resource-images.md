@@ -2,7 +2,7 @@
 title: 制作标准的资源图片
 description: 
 published: true
-date: 2024-10-12T04:30:42.961Z
+date: 2025-05-06T12:12:41.312Z
 tags: 开发者
 editor: markdown
 dateCreated: 2024-07-18T05:41:06.628Z
@@ -24,7 +24,7 @@ OpenBlock 所有的官方资源的图片均遵循了一个标准，以此来保�
 
 同时要在图片周围留有指定宽度的空白边缘，可以直接下载下方图片在此基础上修改，将要添加的内容按比例缩放，居中放置并尽可能的填充中央的绿色部分，然后将背景色替换为白色即可。
 
-- [standardimage.png](/developer-guide/plugin-development/create-standard-resource-images/standardpimage.png)
+- [standardimage.png](/developer-guide/plugin-development/create-standard-resource-images/standardimage.png)
 
 ![standardimage.png](/developer-guide/plugin-development/create-standard-resource-images/standardimage.png)
 
