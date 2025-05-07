@@ -2,7 +2,7 @@
 title: Install Desktop VersionI
 description: 
 published: true
-date: 2024-10-17T03:07:13.223Z
+date: 2025-05-07T10:24:26.740Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-17T03:07:13.223Z
@@ -18,12 +18,15 @@ Select the appropriate download channel based on your region and download the in
 
 #### OpenBlock Desktop Distribution (Recommended)
 
-- [Github Release](https://github.com/openblockee/openblock-distro-desktop/releases/latest)
+- [Google Drive *Main distribution channels*](https://drive.google.com/drive/folders/1Hbr35tD0CvtAWv3w_ws1uFhUDsqUfvAW?usp=sharing)
+{.links-list}
+- [Github Release *Due to capacity limitations, the MacOS installation package is not included*](https://github.com/openblockee/openblock-distro-desktop/releases/latest)
 {.links-list}
 
 #### OpenBlock Desktop Community Edition
 
-- [Github Release](https://github.com/openblockcc/openblock-desktop/releases/latest)
+- [Google Drive *Main distribution channels*](https://drive.google.com/drive/folders/1Hvx5gQR_7MeoQJ9mmzyrhGUFks1TAFq_?usp=sharing)
+- [Github Release *Due to capacity limitations, the MacOS installation package is not included*](https://github.com/openblockcc/openblock-desktop/releases/latest)
 {.links-list}
 
 ## Install the Software
