@@ -2,7 +2,7 @@
 title: 安装桌面版
 description: 
 published: true
-date: 2025-05-07T10:30:39.750Z
+date: 2025-05-07T10:31:30.690Z
 tags: 入门
 editor: markdown
 dateCreated: 2022-10-06T15:09:29.940Z
@@ -36,8 +36,8 @@ dateCreated: 2022-10-06T15:09:29.940Z
 1. 双击软件安装包，完成安装。
 2. **首次安装后**，请在打开软件后点击右上角菜单安装驱动，以安装主板的驱动程序。
 
-![install-driver(zh).png](/assets/install-driver(zh).png)
+![install-driver.png](/assets/install-driver(zh).png)
 
 3. 等待驱动安装完成后就可以开始使用啦~。
 
-<img src="/assets/software-interface(zh).png" alt="software-interface(zh).png" style="zoom:50%;" />
+<img src="/assets/software-interface.png" alt="software-interface(zh).png" style="zoom:50%;" />
