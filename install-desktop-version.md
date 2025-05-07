@@ -2,7 +2,7 @@
 title: 安装桌面版
 description: 
 published: true
-date: 2025-05-07T10:31:30.690Z
+date: 2025-05-07T10:33:12.087Z
 tags: 入门
 editor: markdown
 dateCreated: 2022-10-06T15:09:29.940Z
@@ -40,4 +40,4 @@ dateCreated: 2022-10-06T15:09:29.940Z
 
 3. 等待驱动安装完成后就可以开始使用啦~。
 
-<img src="/assets/software-interface.png" alt="software-interface(zh).png" style="zoom:50%;" />
+<img src="/assets/software-interface(zh).png" alt="software-interface.png" style="zoom:50%;" />
