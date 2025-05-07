@@ -2,7 +2,7 @@
 title: Install Desktop VersionI
 description: 
 published: true
-date: 2025-05-07T10:31:09.900Z
+date: 2025-05-07T10:31:18.016Z
 tags: 
 editor: markdown
 dateCreated: 2024-10-17T03:07:13.223Z
@@ -34,8 +34,8 @@ Select the appropriate download channel based on your region and download the in
 1. Double-click the software package to complete the installation.
 2. **After the first installation**, open the software and click the top-right menu to install the drivers for the motherboard.
 
-![install-driver(en).png](/assets/install-driver(en).png)
+![install-driver.png](/assets/install-driver(en).png)
 
 3. Once the driver installation is complete, you're ready to start using the software~.
 
-<img src="/assets/software-interface(en).png" alt="software-interface(en).png" style="zoom:50%;" />
+<img src="/assets/software-interface.png" alt="software-interface(en).png" style="zoom:50%;" />
