@@ -2,7 +2,7 @@
 title: 插件开发
 description: 
 published: true
-date: 2025-06-03T14:23:29.568Z
+date: 2025-06-03T14:26:50.897Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-17T02:37:35.034Z
@@ -39,7 +39,7 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 - [使用 CLI 工具生成翻译*自动生成标准的翻译文件模板*](./plugin-development/use-cli-tool-to-generate-translation)
 - [定制设备列表](no)
 - [自动更新*配置资源的从指定仓库更新*](no/plugin-development/auto-update)
-- [打包发布独立的资源安装包](./plugin-development/packaging-resource-installers)
+- [打包发布独立的资源安装包](no/plugin-development/packaging-resource-installers)
 {.links-list}
 
 ## 更多示例
