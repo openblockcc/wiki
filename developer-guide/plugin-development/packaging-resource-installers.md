@@ -2,16 +2,15 @@
 title: 打包发布独立的资源安装包
 description: 
 published: true
-date: 2025-06-03T14:25:10.906Z
+date: 2025-06-03T14:25:37.700Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
 ---
 
-# Header
-Your content here
+# 打包发布独立的资源安装包
 
-## Pack
+## 打包指令
 
 - MacOS
 
