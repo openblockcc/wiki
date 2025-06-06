@@ -2,7 +2,7 @@
 title: 安装桌面版
 description: 
 published: true
-date: 2025-05-07T10:33:50.008Z
+date: 2025-06-06T15:48:42.018Z
 tags: 入门
 editor: markdown
 dateCreated: 2022-10-06T15:09:29.940Z
@@ -19,15 +19,12 @@ dateCreated: 2022-10-06T15:09:29.940Z
 #### OpenBlock Desktop 发行版（推荐）
 
 - [百度网盘 *大陆地区下载，推荐使用*](https://pan.baidu.com/s/1MVUvh-D1mmIq9gBPNb6Irg?pwd=sgms)
-- [Google Drive *Google地址，中国地区可能无法访问*](https://drive.google.com/drive/folders/1Hbr35tD0CvtAWv3w_ws1uFhUDsqUfvAW?usp=sharing)
-{.links-list}
 - [Github Release *Github地址，中国地区可能无法访问*](https://github.com/openblockee/openblock-distro-desktop/releases/latest)
 {.links-list}
 
 #### OpenBlock Desktop 社区版
 
 - [百度网盘 *大陆地区下载，推荐使用*](https://pan.baidu.com/s/1ZbpDvno53GAKtcAbGYYR4g?pwd=scaj)
-- [Google Drive *Google地址，中国地区可能无法访问*](https://drive.google.com/drive/folders/1Hvx5gQR_7MeoQJ9mmzyrhGUFks1TAFq_?usp=sharing)
 - [Github Release *Github地址，中国地区可能无法访问*](https://github.com/openblockcc/openblock-desktop/releases/latest)
 {.links-list}
  
