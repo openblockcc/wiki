@@ -2,13 +2,17 @@
 title: 打包发布独立的资源安装包
 description: 
 published: false
-date: 2025-06-07T09:42:19.251Z
+date: 2025-06-07T10:23:09.306Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
 ---
 
 # 打包发布独立的资源安装包
+
+## 资源包更新机制
+
+## 建立更新仓库并发布
 
 ## 软件打包说明
 
