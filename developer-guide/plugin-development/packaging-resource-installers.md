@@ -2,7 +2,7 @@
 title: 打包发布独立的资源安装包
 description: 
 published: true
-date: 2025-06-07T15:28:33.831Z
+date: 2025-06-07T15:29:06.530Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
@@ -57,7 +57,7 @@ dateCreated: 2025-06-03T14:25:10.906Z
 
         注意修改使用你实际的版本号，并将路径修改为你真实的 Inno Setup 安装路径。
         由于安装路径可能存在空格所以在执行该指令时 CMD 与 PowerShell 的命令是不同的。
-        
+
         - CMD
         
             ``` bat
