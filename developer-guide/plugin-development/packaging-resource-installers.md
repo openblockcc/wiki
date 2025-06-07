@@ -2,7 +2,7 @@
 title: 打包发布独立的资源安装包
 description: 
 published: true
-date: 2025-06-07T15:32:03.120Z
+date: 2025-06-07T15:36:36.499Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
@@ -25,6 +25,7 @@ dateCreated: 2025-06-03T14:25:10.906Z
 1. 在项目根目录打开终端，运行打包脚本：
 
     > 注意修改使用你实际的版本号。
+    {.is-info}
 
     ``` bash
     ./buildResources/build-pkg.sh VERSION="1.0.0"
@@ -42,7 +43,8 @@ dateCreated: 2025-06-03T14:25:10.906Z
 
 2. 在项目根目录打开终端，运行打包脚本：
 
-     > 注意修改使用你实际的版本号。
+    > 注意修改使用你实际的版本号。
+    {.is-info}
 
     ``` bash
     ./buildResources/build-deb.sh -v"1.0.0"
@@ -52,12 +54,16 @@ dateCreated: 2025-06-03T14:25:10.906Z
 
 ### Windows
 
-1. 首先需要安装有 [Inno Setup](https://jrsoftware.org/isinfo.php)，如果你需要保存对win7系统的兼容性，推荐下载v5.x.x 的版本。
+1. 首先需要安装有 [Inno Setup](https://jrsoftware.org/isinfo.php)
+
+    > 如果你需要保存对win7系统的兼容性，推荐下载v5.x.x 的版本。 
+    {.is-info}
 
 2. 在项目根目录打开终端，运行打包脚本：
 
     > 注意修改使用你实际的版本号，并将路径修改为你真实的 Inno Setup 安装路径。
     > 由于安装路径可能存在空格所以在执行该指令时 CMD 与 PowerShell 的命令是不同的。
+    {.is-info}
 
     - CMD
     
