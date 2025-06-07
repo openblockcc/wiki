@@ -1,8 +1,8 @@
 ---
 title: 打包发布独立的资源安装包
 description: 
-published: false
-date: 2025-06-07T10:23:30.856Z
+published: true
+date: 2025-06-07T10:23:46.322Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
