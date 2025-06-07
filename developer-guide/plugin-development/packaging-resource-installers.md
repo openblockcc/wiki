@@ -2,7 +2,7 @@
 title: 打包发布独立的资源安装包
 description: 
 published: true
-date: 2025-06-07T15:36:36.499Z
+date: 2025-06-07T15:42:11.304Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
@@ -56,8 +56,14 @@ dateCreated: 2025-06-03T14:25:10.906Z
 
 1. 首先需要安装有 [Inno Setup](https://jrsoftware.org/isinfo.php)
 
-    > 如果你需要保存对win7系统的兼容性，推荐下载v5.x.x 的版本。 
+    > 如果你需要保证对 Windows7 甚至更低版本系统的兼容性，推荐下载 v5.x.x 的版本。 
     {.is-info}
+    
+    如果你使用 choco 包管理器，可以使用以下指令安装:
+
+    ``` bash
+    choco install innosetup --version=5.6.1 --allow-downgrade
+    ```
 
 2. 在项目根目录打开终端，运行打包脚本：
 
@@ -67,13 +73,13 @@ dateCreated: 2025-06-03T14:25:10.906Z
 
     - CMD
     
-        ``` bat
+        ``` bash
         "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVersion="1.0.0" "./buildResources/setup.iss"
         ```
 
     - PowerShell
     
-        ``` bat
+        ``` bash
         & "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVersion="1.0.0" "./buildResources/setup.iss"
         ```
 
