@@ -2,7 +2,7 @@
 title: 打包发布独立的资源安装包
 description: 
 published: false
-date: 2025-06-07T04:50:56.000Z
+date: 2025-06-07T04:55:54.136Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
@@ -14,13 +14,13 @@ dateCreated: 2025-06-03T14:25:10.906Z
 
 - MacOS
 
-    1. 打开终端，进入项目根目录，运行打包脚本，指定版本号：
+    1. 打开终端在项目根目录，运行打包脚本（其中 "1.0.0" 替换为你当前的软件版本号）：
 
         ``` bash
         ./buildResources/build-pkg.sh VERSION="1.0.0"
         ```
 
-    3.脚本执行完毕后，生成的 .pkg 安装包文件位于 ./dist 目录。
+    2.脚本执行完毕后，生成的 .pkg 安装包文件位于 ./dist 目录。
 
 - Linux
 
@@ -29,21 +29,14 @@ dateCreated: 2025-06-03T14:25:10.906Z
         ``` bash
         sudo apt install -y dpkg-deb
         ```
-    2. 
-已安装 dpkg-deb 工具。
 
-如果未安装，请运行：
+    2. 打开终端在项目根目录，运行打包脚本（其中 "1.0.0" 替换为你当前的软件版本号）：
 
-bash
-复制
-编辑
-sudo apt install -y dpkg-deb
+        ``` bash
+        ./buildResources/build-deb.sh -v"1.0.0"
+        ```
 
-    You need to Run `sudo apt install -y dpkg-deb` to install `dpkg-deb` first.
-
-    ``` bash
-    ./buildResources/build-deb.sh -v"1.0.0"
-    ```
+    3.脚本执行完毕后，生成的 .deb 安装包文件位于 ./dist 目录。
 
 - Windows
 
