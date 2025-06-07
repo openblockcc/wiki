@@ -2,7 +2,7 @@
 title: 打包发布独立的资源安装包
 description: 
 published: false
-date: 2025-06-07T09:41:27.962Z
+date: 2025-06-07T09:41:44.077Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
@@ -51,3 +51,5 @@ dateCreated: 2025-06-03T14:25:10.906Z
         ``` bat
         "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVersion="1.0.0" "./buildResources/setup.iss"
         ```
+
+    3. 脚本执行完毕后，生成的 .exe 安装包文件位于 ./dist 目录。
