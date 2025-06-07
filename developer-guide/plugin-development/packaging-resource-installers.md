@@ -2,7 +2,7 @@
 title: 打包发布独立的资源安装包
 description: 
 published: false
-date: 2025-06-07T09:41:44.077Z
+date: 2025-06-07T09:42:19.251Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
@@ -21,11 +21,11 @@ dateCreated: 2025-06-03T14:25:10.906Z
         ./buildResources/build-pkg.sh VERSION="1.0.0"
         ```
 
-    2. 脚本执行完毕后，生成的 .pkg 安装包文件位于 ./dist 目录。
+    2. 脚本执行完毕后，生成的 `.pkg` 安装包文件位于 `./dist` 目录。
 
 - Linux
 
-    1. 首先需要安装有 dpkg-deb 工具，如果未安装，请运行：
+    1. 首先需要安装有 `dpkg-deb` 工具，如果未安装，请运行：
 
         ``` bash
         sudo apt install -y dpkg-deb
@@ -39,7 +39,7 @@ dateCreated: 2025-06-03T14:25:10.906Z
         ```
         注意修改使用你实际的版本号。
 
-    3. 脚本执行完毕后，生成的 .deb 安装包文件位于 ./dist 目录。
+    3. 脚本执行完毕后，生成的 `.deb` 安装包文件位于 `./dist` 目录。
 
 - Windows
 
@@ -52,4 +52,4 @@ dateCreated: 2025-06-03T14:25:10.906Z
         "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVersion="1.0.0" "./buildResources/setup.iss"
         ```
 
-    3. 脚本执行完毕后，生成的 .exe 安装包文件位于 ./dist 目录。
+    3. 脚本执行完毕后，生成的 `.exe` 安装包文件位于 `./dist` 目录。
