@@ -2,7 +2,7 @@
 title: 打包发布独立的资源安装包
 description: 
 published: false
-date: 2025-06-07T10:23:09.306Z
+date: 2025-06-07T10:23:30.856Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
@@ -12,7 +12,11 @@ dateCreated: 2025-06-03T14:25:10.906Z
 
 ## 资源包更新机制
 
+待完善
+
 ## 建立更新仓库并发布
+
+待完善
 
 ## 软件打包说明
 
