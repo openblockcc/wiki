@@ -2,7 +2,7 @@
 title: 打包发布独立的资源安装包
 description: 
 published: true
-date: 2025-06-07T15:42:11.304Z
+date: 2025-06-08T05:37:02.740Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-03T14:25:10.906Z
@@ -47,7 +47,7 @@ dateCreated: 2025-06-03T14:25:10.906Z
     {.is-info}
 
     ``` bash
-    ./buildResources/build-deb.sh -v"1.0.0"
+    ./buildResources/build-deb.sh VERSION="1.0.0"
     ```
 
 3. 脚本执行完毕后，生成的 `.deb` 安装包文件位于 `./dist` 目录。
@@ -74,13 +74,13 @@ dateCreated: 2025-06-03T14:25:10.906Z
     - CMD
     
         ``` bash
-        "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVersion="1.0.0" "./buildResources/setup.iss"
+        "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVERSION="1.0.0" "./buildResources/setup.iss"
         ```
 
     - PowerShell
     
         ``` bash
-        & "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVersion="1.0.0" "./buildResources/setup.iss"
+        & "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVERSION="1.0.0" "./buildResources/setup.iss"
         ```
 
 3. 脚本执行完毕后，生成的 `.exe` 安装包文件位于 `./dist` 目录。
