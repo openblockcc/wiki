@@ -2,7 +2,7 @@
 title: 准备工作
 description: 
 published: true
-date: 2025-06-12T15:18:18.973Z
+date: 2025-06-12T15:18:49.488Z
 tags: 开发者
 editor: markdown
 dateCreated: 2024-07-17T06:33:01.278Z
@@ -38,7 +38,7 @@ npm ci
 ### Tab {.tabset}
 #### Windows
 
-使用 powershell 或 CMD 运行 `./setup.sh`，或者也可以直接双击脚本文件运行。
+使用 powershell 或 CMD 运行 `./setup.sh`，或者直接双击脚本文件运行。
 
 #### MacOS/Linux
 
