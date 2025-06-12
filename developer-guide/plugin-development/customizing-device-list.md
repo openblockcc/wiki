@@ -2,7 +2,7 @@
 title: 定制设备列表
 description: 
 published: true
-date: 2025-06-12T16:55:04.820Z
+date: 2025-06-12T16:57:23.355Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-12T16:27:18.031Z
@@ -50,7 +50,7 @@ module.exports = [
 
 列表中以数组形式定义的 `deviceId` 是多编程架构设备（如：ESP32、K210等）的特殊写法，因为对于多编程架构的设备来说我们实质上需要定义一个父类和多个子类来实现它。使用数组包裹他们只是为了方便阅读与管理，其功能与直接展开书写的结构并无任何区别。
 
-当然多编程架构的特性仅在 发行版本中生效，在社区版中不支持的设备类型会被忽略，只会显示其支持的编程架构设备。比如在社区版中 `['k210MaixDock', 'arduinoK210MaixDock', 'microPythonK210MaixDock']` 这个设备列表，只会显示 `arduinoK210MaixDock` 这个设备。
+当然多编程架构的特性仅在发行版本中生效，在社区版中不支持的设备类型会被忽略，只会显示其支持的编程架构设备。比如在社区版中 `['k210MaixDock', 'arduinoK210MaixDock', 'microPythonK210MaixDock']` 这个设备列表，只会显示 `arduinoK210MaixDock` 这个设备。
 
 ## 附件
 
