@@ -2,7 +2,7 @@
 title: 插件开发
 description: 
 published: true
-date: 2025-06-12T14:08:47.708Z
+date: 2025-06-12T16:07:34.241Z
 tags: 
 editor: markdown
 dateCreated: 2024-07-17T02:37:35.034Z
@@ -36,17 +36,16 @@ PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8v
 ## 更进一步
 
 - [制作标准的资源图片*遵循标准以保证 UI 风格的统一性*](./plugin-development/create-standard-resource-images)
+- [添加实时模式的扩展*仅适用于发行版*](no)
+- [为设备添加实时模式积木*仅适用于发行版*](no)
+- [添加支持实时与上传双模式的扩展*仅适用于发行版*](no)
+{.links-list}
+
+## 定制化
 - [使用 CLI 工具生成翻译*自动生成标准的翻译文件模板*](./plugin-development/use-cli-tool-to-generate-translation)
 - [定制设备列表*定制自己的设备选择界面*](no)
 - [自动更新*让外部资源从指定的仓库更新*](no/plugin-development/auto-update)
 - [打包发布独立的资源安装包*让定制内容与官方软件完美融合*](./plugin-development/packaging-resource-installers)
-{.links-list}
-
-## 更多示例
-
-- [为设备添加实时模式积木*仅适用于发行版*](no)
-- [添加支持实时与上传双模式的扩展*仅适用于发行版*](no)
-- [添加实时模式的扩展*仅适用于发行版*](no)
 {.links-list}
 
 ## 参考
