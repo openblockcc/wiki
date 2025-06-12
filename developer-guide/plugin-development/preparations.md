@@ -2,7 +2,7 @@
 title: 准备工作
 description: 
 published: true
-date: 2025-06-12T15:28:50.245Z
+date: 2025-06-12T15:30:10.009Z
 tags: 开发者
 editor: markdown
 dateCreated: 2024-07-17T06:33:01.278Z
@@ -51,7 +51,9 @@ sudo ./setup.sh
 
 4. 验证环境变量是否生效 
 
-在脚本运行完成后，当前的资源路径就已经被设置到了系统的环境变量中了，可以被 Resource Server 扫描到了，我们可以重新打开一个新的终端来验证以下。
+在脚本运行完成后，当前的资源路径就已经被设置到了系统的环境变量中了，可以被 Resource Server 扫描到了，我们可以重新打开一个新的终端来验证一下。
+> 注意需要在新启动的终端中运行该指令。
+{.is-warning}
 
 ### Tab {.tabset}
 #### Windows
@@ -59,8 +61,6 @@ sudo ./setup.sh
 ```bash
 echo $env:OPENBLOCK_EXTERNAL_RESOURCES
 ```
-> 注意需要在新启动的终端中运行该指令。
-{.is-warning}
 
 #### MacOS/Linux
 
