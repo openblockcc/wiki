@@ -2,7 +2,7 @@
 title: 准备工作
 description: 
 published: true
-date: 2025-06-12T15:18:49.488Z
+date: 2025-06-12T15:28:50.245Z
 tags: 开发者
 editor: markdown
 dateCreated: 2024-07-17T06:33:01.278Z
@@ -59,6 +59,8 @@ sudo ./setup.sh
 ```bash
 echo $env:OPENBLOCK_EXTERNAL_RESOURCES
 ```
+> 注意需要在新启动的终端中运行该指令。
+{.is-warning}
 
 #### MacOS/Linux
 
