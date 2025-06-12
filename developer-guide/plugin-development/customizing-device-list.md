@@ -2,7 +2,7 @@
 title: 定制设备列表
 description: 
 published: true
-date: 2025-06-12T16:52:44.383Z
+date: 2025-06-12T16:53:40.014Z
 tags: 开发者
 editor: markdown
 dateCreated: 2025-06-12T16:27:18.031Z
@@ -43,7 +43,7 @@ module.exports = [
   	// ...
 ];
 ```
-> 注意这个文件中定义的 Third party 中的 `deviceId` 均为举例时虚构的设备，使用时要件其替换为真实存在的 `deviceId`。
+> 注意这个文件中定义的 Third party 中的 `deviceId` 均为举例时虚构的设备，使用时要将其替换为真实存在的 `deviceId`。
 {.is-warning}
 
 当 `device.js` 文件存在时 OpenBlock 资源系统就会根据这个文件中的定义显示设备列表。我们可以通过设置 `deviceId` 的方式来控制显示的设备内容。除了软件内部定义的设备外，也可以使用我们在资源包中自己添加的设备，直接在列表中添加对应的设备的 `deviceId` 即可。
